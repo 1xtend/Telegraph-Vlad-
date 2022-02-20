@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #00194A;
+}
+
+header, main, footer {
+    width: 1140px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Stuff */
+
+.stuff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 530px;
+    margin-top: 100px;
+}
+
+.stuff-text {
+    width: 450px;
+}
+
+.stuff-text h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    padding-bottom: 30px;
+}
+
+.st-1, .st-2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.st-1 {
+    padding-bottom: 40px;
+}
+
+.stuff-cards {
+    width: 550px;
+    height: 100%;
+}
+
+.st-cards-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+}
+
+.st-card {
+    width: 260px;
+    height: 250px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    background-color: #fff;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.st-card:first-child {
+    margin-bottom: 30px;
+}
+
+.st-card:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+
+.st-card:hover {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.07);
+}
+
+.st-card img {
+    padding: 36px 0 26px;
+}
+
+.st-card  h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 15px;
+}
+
+.st-card p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
